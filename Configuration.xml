@@ -1,0 +1,9 @@
+<Configuration>
+    <boundary>Periodic</boundary>      <!-- Periodic, Absorb-->
+    <neighborhood>Neumann</neighborhood> <!-- Moore, Neumann-->
+    <seeds>256</seeds>                 <!-- amount of grains seeds -->
+    <size>124</size>                   <!-- grid dimension -->
+    <display>true</display>            <!-- display gorwn grains -->
+    <method>MC</method>                <!-- MC, default CA -->
+    <epochs>0</epochs>
+</Configuration>
